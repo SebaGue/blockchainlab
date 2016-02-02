@@ -1,0 +1,60 @@
+# name: Nome startup
+# link: Link startup
+# extension : Estensione file
+# logo --> images/logo/logo_{name | replace: ' ','' | downcase }.{ extension}
+
+- name: Wolf of Trading
+  link: http://wolfoftrading.com/
+  extension: png
+
+- name: AssoBit
+  link: http://www.assob.it/
+  extension: png
+
+- name: Siamo Soci
+  link: https://siamosoci.com/
+  extension: png
+
+- name: Green Address
+  link: https://greenaddress.it/it/
+  extension: png
+
+- name: Eternity Wall
+  link: http://eternitywall.it/
+  extension: svg
+
+- name: Helperbit
+  link: http://www.helperbit.com/
+  extension: svg
+
+- name: Clipperz
+  link: https://clipperz.is/
+  extension: png
+
+- name: The Rock Trading
+  link: https://www.therocktrading.com/
+  extension: png
+
+- name: inbitcoin
+  link: https://inbitcoin.it
+  extension: svg
+
+- name: Crowdaura
+  link: http://www.crowdaura.com/
+  extension: png
+
+- name: Holytransaction
+  link: https://holytransaction.com/
+  extension: png
+  
+- name: Cryptoclub
+  link: http://cryptoclub.it/
+  extension: png
+  
+- name: Euklid
+  link: https://www.euklid.com/
+  extension: png
+
+- name: Paymeabit
+  link: http://www.thenetvalue.com/portfolio/paymeabit/
+  extension: png

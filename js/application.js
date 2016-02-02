@@ -290,10 +290,10 @@ $(window).ready(function() {
             "autoPlay": 3000,
             "items": 1,
             "singleItem": true,
-            "itemsDesktop" : [1199,5],
-            "itemsDesktopSmall" : [980,4],
-            "itemsTablet": [768,3],
-            "itemsMobile" : [479,2],
+            "itemsDesktop" : [1199,4],
+            "itemsDesktopSmall" : [980,2],
+            "itemsTablet": [768,2],
+            "itemsMobile" : [479,1],
         };
 
         opts = $.extend( {}, defaults, pluginOptions );

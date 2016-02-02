@@ -1,0 +1,16 @@
+{% for people in site.data.people %}
+    <figure class="effect-jazz {{ people.team }}">
+        <img src="images/team/{{ people.team }}/{{ people.name | replace: ' ','_'  }}.jpg" alt="{{ people.name }}">
+        <div class="tit_bio text-right">{{ people.name }}</div>
+        <div class="bio">{{ people.bio }}</div>
+        <figcaption>
+            <div class="see-more">
+                <div class="see-more-inner">
+                <h2>{{ people.name }}</h2>
+                <p>{{ people.ruolo }}<br>{{ people.posizione }}</p>
+                <a href="{{ people.link }}" class="btn button-line button-white btn-rounded hover-effect" target="_blank">info</a>
+                </div>
+            </div>
+        </figcaption>
+    </figure>
+{% endfor %}

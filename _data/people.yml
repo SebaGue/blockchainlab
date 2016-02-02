@@ -1,0 +1,27 @@
+# name: Nome Cognome
+#bio: Mini biografia, massimo 150 caratteri
+#link: Indirizzo o di linkedin o di un personal website
+#team: 3 tipi : ricerca, multidisciplinare, comitato
+#ruolo: Ruolo nel team
+#posizione: Attuale posizione lavorativa
+
+- name: Giacomo Zucco
+  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  link: https://it.linkedin.com/in/giacomozucco
+  team: ricerca
+  ruolo: coordinatore BLOCKCHAINLAB
+  posizione: ex Accenture
+
+- name: Riccardo Casatta
+  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  link: https://it.linkedin.com/in/riccardocasatta
+  team: ricerca
+  ruolo: ricercatore BLOCKCHAINLAB
+  posizione: CEO GeoBit ex Zurich
+
+- name: Franco Cimatti
+  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  link: https://uk.linkedin.com/in/hostfat
+  team: ricerca
+  ruolo: ricercatore BLOCKCHAINLAB
+  posizione: Pres. Bitcoin Foundation Italia consulente CryptoClub
