@@ -1,0 +1,118 @@
+.well-come {
+    color: #4d4d4d!important;
+}
+.well-come img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.intro-message {
+    color: #4d4d4d;
+}
+
+#play-video.control-play, #play-video.control-pause{
+    cursor:pointer;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+}
+#play-video.control-play:hover, #play-video.control-pause:hover{
+    -ms-transform: rotate(7deg); 
+    -webkit-transform: rotate(7deg); 
+    transform: rotate(7deg);
+}
+
+.pulse {
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.0
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+.macbook-carousel figure {
+    left: 82px;
+    width: 421px;
+    height: 263px;
+}
+.fixed-topnav ~ .section-portfolio {
+    background-color:rgba(255,255,255,0.6);
+}
+.portfolioContainer figure img {
+    max-width:180px;
+    float:left;
+    min-height:180px;
+}
+.service-description {
+    color: #8F8F8F;
+    font-family: 'Dosis',sans-serif;
+}
+.bg_transparent p {
+    font-family: 'Dosis',sans-serif;
+}
+.tit_bio{
+    
+   padding: 5px 15px 0px 15px; 
+}
+.bio {
+    font-family: 'Dosis',sans-serif;
+    font-size: small;
+    text-align: right;
+    padding: 5px 15px 15px 15px;
+    line-height: 1.3;
+    width:49%;
+    float:right;
+}
+figure.effect-jazz {
+    border: 1px solid #e1e1e1;
+    
+    background-repeat: no-repeat;
+    background-position: 96% 95%;
+    background-size: 35px 25px;
+    
+}
+.ricerca {
+    background-image: url(../images/blockchainlab-logo-dark.png)!important;
+}
+.multi {
+    background-image: url(../images/blockchainlab-logo-grey.png)!important;
+}
+.comitato {
+    background-image: url(../images/blockchainlab-logo-blue.png)!important;
+}
+.see-more-inner{
+    -moz-transition: all .7s linear;
+    -o-transition: all .7s linear;
+    -webkit-transition: all .7s linear;
+    transition: all .7s linear;
+}
+
+figure.effect-jazz:hover .see-more-inner {
+    background:rgba(100,100,100,0.9);
+}
+.portfolioContainer.grid-4 figure p {
+    font-size: 10px;
+}
+.img_team {
+    max-width: 30px;
+}
+.logo_small {
+    max-width: 50px;
+}
+.topnav .navbar-brand {
+    background-size: 75px 54px;
+}
+.icon-carousel img {
+    height: 40px;
+}
+.testimonial-photos .photo-hold {
+    
+    width: auto;
+    height: auto;
+    
+}
+
+
