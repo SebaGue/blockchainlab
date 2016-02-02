@@ -119,9 +119,7 @@
                 La blockchain è una rivoluzionaria forma di registro distribuito che, per la prima volta nella storia dell’uomo, rende possibile riprodurre la scarsità nel mondo digitale, senza bisogno di terze parti o enti centrali. La tecnologia blockchain, su cui i principali player globali stanno investendo, rende possibile per la prima volta “l’Internet della Proprietà”. La moneta e i sistemi di pagamento sono solo le prime di una serie sconfinata di potenziali innovazioni: dai mercati azionari alla governance associativa, dall’internet of things ai contratti automatizzati.
               </p>
               
-              {% for post in site.posts %}
-		  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
-		{% endfor %}
+              {% include 'people.html' %}
               
               
               
