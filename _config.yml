@@ -1,1 +1,5 @@
 name: Blockchainlab
+
+pages_list:       
+  About: '/about'
+  Archive: '/archive'
