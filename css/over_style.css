@@ -128,8 +128,44 @@ figure.effect-jazz:hover .see-more-inner {
         clear:both;
         padding:10px 20px;
     }
+    .container.services,.section-portfolio {
+        padding-top: 10px!important;
+    }
+    .section-content {
+        padding:10px 0px!important;
+    }
+        .service-description {
+        text-align:justify!important;
+    }
+    .foto {
+        background-position: 0px -108px;
+        padding: 40px 0px!important;
+    }
+    .m-b-30 {
+        margin-bottom: 10px!important;
+    }
+    .portfolioContainer figure:nth-child(even) img {
+        float: right;
+    }
+    .portfolioContainer figure:nth-child(even).effect-jazz {
+        background-position: 5% 5%;
+    }
     
-    
+    .portfolioContainer figure:nth-child(odd) .tit_bio,.portfolioContainer figure:nth-child(odd) .bio {
+        text-align:left!important;
+    }
+    .section-content {
+        padding: 30px 0px 0px 0px!important;
+    }
+    .owl-theme .owl-controls {
+        display:none!important;
+    }
+    .section-testimonials {
+        height: 550px;
+    }
+    .copyright-simple-menu{
+        display:none;
+    }
 }
 
 

@@ -9,17 +9,16 @@ var windowWidth = $(window).width();
 var windowHeight = $(window).height();
 
 $(window).load(function() {
-
-});
-$('#advanced_iframe').load(function(){
-        setTimeout(function() {
+setTimeout(function() {
             $('.loader-overlay').addClass('loaded');
             $('body > section').animate({
                 opacity: 1,
             }, 800);
             progressBar();
-        }, 7000);
-    })
+        }, 500);
+});
+
+$('#advanced_iframe').load(function(){})
 
 
 
