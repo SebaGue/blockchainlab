@@ -169,7 +169,7 @@ $(window).ready(function() {
     /* Video Background */
     if($(".video-player").length){
         $(".video-player").each(function(){
-            //$(this).mb_YTPlayer();
+            $(this).mb_YTPlayer();
         });
     }
     /*
