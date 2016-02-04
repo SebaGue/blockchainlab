@@ -27,7 +27,7 @@
         <div class="bounce2"></div>
         <div class="bounce3"></div>
       </div>
-      <!-- <div style="padding-top:5%;"><iframe id='advanced_iframe'  name='advanced_iframe'  src='logo.html'  width='100%'  height='200'  scrolling='no'  frameborder='0'  border='0'  allowtransparency='true' ></iframe></div> -->
+      
     </div>
     <!-- END PRELOADER -->
 
@@ -88,15 +88,16 @@
 
     <!-- Begin Header Video Full Height -->
     <header id="home" class="height-full center" data-img="bg-video-green.png">
-      <div class="video-player mb_YTPlayer" data-property="{videoURL:'https://youtu.be/5zRowCyspnE', containment:'#home', startAt:0, mute:false, autoPlay:false, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
+      <div class="video-player mb_YTPlayer" data-property="{videoURL:'https://youtu.be/5zRowCyspnE', containment:'#home', startAt:0, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:0}"></div>
       <div class="container top-element">
         <div class="row top-text fade-text">
-          <h1 class="well-come"><img src="images/logo_text.png"></h1>
+          
           
           
           <div class="col-md-10 col-md-offset-1">
             <div class="video-control">
-              <div></div>
+              <div class="cont_logo_home"><h1 class="well-come"><img src="images/logo_text.png"></h1></div>
+              <div class="cont_iframe"><iframe id='advanced_iframe'  name='advanced_iframe'  src='animation/blockchain.html'  width='100%'  height='200'  scrolling='no'  frameborder='0'  border='0'  allowtransparency='true' ></iframe></div>
               <img src="images/blockchainlab-logo-dark.png" id="play-video" class="control-play logo_small">
             </div>
             <p class="intro-message">Il progetto di ricerca che riunisce le migliori competenze nella più grande rivoluzione in campo FinTech</p>
@@ -150,11 +151,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8">
-            <h2 style="color:#FFF;">Hai un progetto?Un'idea?Solo conoscenza?</h2>
-            <p style="color:#FFF;">Noi abbiamo le risposte</p>
+            <h2 style="color:#FFF;">La tua startup ha bisogno di noi?</h2>
+            <h2 style="color:#FFF;">Il tuo business vuole evolversi?</h2>
+            
           </div>
           <div class="col-md-4 text-right m-t-15">
-            <a href="#" class="btn btn-primary btn-rounded hover-effect m-b-0">Contattaci</a>
+            <a href="#contact" class="btn btn-primary btn-rounded hover-effect m-b-0">Contattaci</a>
           </div>
         </div>
       </div>
@@ -603,11 +605,19 @@
       <div class="container center">
         <div class="row">
           <div class="col-md-12">
-            <h3 class="section-title">Hai un progetto? Noi ti aiuteremo a svilupparlo</h3>
+            
+            <div class="pharse_slide owl-carousel">
+                {% for pharse in site.data.phrases %}
+                   <div class="pharse center">
+                        <h4>{{ pharse.pharse }}</h4>
+                        <small>{{ pharse.author }}</small>
+                    </div>
+                {% endfor %}
+            </div>
+            
+            
           </div>
-          <div class="col-md-12">
-            <a href="#" class="btn btn-dark btn-rounded hover-effect animated" data-animation="fadeIn" data-animation-delay="300">Contattaci</a>
-          </div>
+          
         </div>
       </div>
     </section>
@@ -617,26 +627,17 @@
     <div id="contact" class="section-footer footer-wrap bg-dark">
       <div class="container footer center">
         <div class="row">
-          <div class="col-md-3">
-            <h4 style="color:#FFF;">>BLOCKCHAINLAB</h4>
-            <p>Supporto e consulenza</p>
-            <p>Sviluppo e crescita</p>
-            <p>Contattaci per la tua idea</p>
-            
-          </div>
-          <div class="col-md-3">
+          
+          
+          <div class="col-md-4">
             <h4 style="color:#FFF;">Info BLOCKCHAINLAB</h4>
             <p><i class="line-icon-map"></i>via Timavo 34, Milano</p>
             <p><i class="line-icon-screen-smartphone"></i>+2-777-555-332 / -2-666-442-887</p>
             <p><i class="line-icon-envelope-open"></i>info@blockchainlab.it</p>
             <p><i class="line-icon-calendar"></i>9am - 20 pm 7/7</p>
           </div>
-          <div class="col-md-3">
-            <h4 style="color:#FFF;">Support</h4>
-            <p><a href="#">Faq</a></p>
-            <p><a href="#">Privacy Policy</a></p>
-          </div>
-          <div class="col-md-3">
+          
+          <div class="col-md-4">
             <h4>Get In Touch</h4>
             <div class="social-icons social-square">
               <ul class="text-left">
@@ -647,6 +648,11 @@
               </ul>
             </div>
           </div>
+          
+          <div class="col-md-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44753.137614353196!2d9.178016732098225!3d45.488512947400366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6d9ef573c67%3A0xf85d28f3d532d3b5!2sCopernico+Milano!5e0!3m2!1sit!2sit!4v1454585380048" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -656,15 +662,8 @@
     <div class="section-copyright bg-dark">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <p>Copyright 2016 Fondazione FintechLab - via Timavo 34, Milano - Cod. Fis. 97719150159</p>
-          </div>
-          <div class="col-md-6">
-            <p class="copyright-simple-menu">
-              <span>Home</span>
-              <span>Faq</span>
-              <span>Support</span>
-            </p>
           </div>
         </div>
       </div>

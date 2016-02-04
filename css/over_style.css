@@ -41,9 +41,19 @@
 .fixed-topnav ~ .section-portfolio {
     background-color:rgba(255,255,255,0.6);
 }
-.portfolioContainer figure img {
-    max-width:200px;
-    float:left;
+.block_logo {
+    position: absolute!important;
+    top: 0px;
+    width: 70px!important;
+    right:0px;
+    padding:0px 0px 10px 10px;
+    border-bottom-left-radius:2em;
+    background:#fff;
+    -moz-transition: all 1s linear!important;
+    -o-transition: all 1s linear!important;
+    -webkit-transition: all 1s linear!important;
+    transition: all 1s linear!important;
+    
 }
 .service-description {
     color: #8F8F8F;
@@ -64,14 +74,11 @@
     line-height: 1.3;
   
 }
-figure.effect-jazz {
-    border: 1px solid #e1e1e1;
-    
-    background-repeat: no-repeat;
-    background-position: 95% 5%;
-    background-size: 35px 25px;
-    
+figure.effect-jazz img {
+    opacity: 1;
 }
+
+/*
 .ricerca {
     background-image: url(../images/blockchainlab-logo-dark.png)!important;
 }
@@ -81,16 +88,24 @@ figure.effect-jazz {
 .comitato {
     background-image: url(../images/blockchainlab-logo-blue.png)!important;
 }
+*/
 .see-more-inner{
-    -moz-transition: all .7s linear;
-    -o-transition: all .7s linear;
-    -webkit-transition: all .7s linear;
-    transition: all .7s linear;
+    -moz-transition: all .4s linear;
+    -o-transition: all .4s linear;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+    border:0px!important;
 }
 
 figure.effect-jazz:hover .see-more-inner {
     background:rgba(100,100,100,0.9);
+    border:0px;
 }
+figure.effect-jazz:hover .block_logo {
+    
+   top:-100px;
+}
+
 .portfolioContainer.grid-4 figure p {
     font-size: 10px;
 }
@@ -113,12 +128,41 @@ figure.effect-jazz:hover .see-more-inner {
     
 }
 .cont_loghi{
-    background:rgba(100,100,100,0.5)
+    background:rgba(100,100,100,0.5);
+}
+
+.pharse_slide .owl-controls {
+        display:none!important;
+    }
+.footer_img{
+    width:100%;
+}    
+.link_hover:hover i{
+    color:#5299C7;
+    -moz-transition: all .7s linear;
+    -o-transition: all .7s linear;
+    -webkit-transition: all .7s linear;
+    transition: all .7s linear;
+}
+figure.effect-jazz .see-more p {
+    padding: 0px 15px;
+}
+
+.cont_logo_home{
+    display:none;
+}
+.cont_iframe{
+    display:block;
 }
 
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 568px) { 
-    
+    .cont_iframe{
+        display:none;
+    }
+    .cont_logo_home{
+        display:block;
+    }
     
     .tit_bio {
         clear:both;
@@ -160,6 +204,7 @@ figure.effect-jazz:hover .see-more-inner {
     .owl-theme .owl-controls {
         display:none!important;
     }
+    
     .section-testimonials {
         height: 550px;
     }

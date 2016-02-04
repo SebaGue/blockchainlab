@@ -167,11 +167,16 @@ $(window).ready(function() {
     
     
     /* Video Background */
+    
+    $(".video-player").mb_YTPlayer();
+    
+    /*
     if($(".video-player").length){
         $(".video-player").each(function(){
             $(this).mb_YTPlayer();
         });
     }
+    */
     /*
     $('#play-video').hover(
         function() {
@@ -298,6 +303,17 @@ $(window).ready(function() {
         opts = $.extend( {}, defaults, pluginOptions );
         $this.owlCarousel(opts); 
     });
+    
+    /* Pharses Carousel*/
+    
+    $('.pharse_slide').owlCarousel({
+        singleItem: true,
+        autoPlay: true,
+        pagination: false,
+        slideSpeed: 1000,
+        navigation: false
+        
+    })
 
     /* Video */
     if($(".video").length && $.fn.fitVids){
@@ -511,7 +527,9 @@ function portfolioIsotope(){
     if($('.portfolioContainer').length){
         var $container = $('.portfolioContainer');
   
-        $container.isotope();
+        $container.isotope({
+            layoutMode: 'fitRows',
+        });
        
         $('.portfolioFilter a').click(function(){
             $('.portfolioFilter .current').removeClass('current');
