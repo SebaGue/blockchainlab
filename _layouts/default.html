@@ -238,20 +238,27 @@
     <!-- Begin Portfolio Boxed 3 columns with Gutter -->
     <section id="portfolio" class="section-portfolio bg-gray-light p-b-10">
     <div class="bg_transparent">
-      <div class="center container m-b-30">
-        <h3 class="section-title"></h3>
-        <div class="center m-b-30">
-            <h3 class="section-title">BLOCKCHAINLAB è <span class="rotate-text" data-plugin-options='{"speed": 2000}'>velocità, affidabilità, sicurezza, privacy, ricerca, sviluppo, bitcoin </span> sulla tecnologia blockchain</h3>
-            <p class="p-b-20 f-16">Team di ricerca tecnologie blockchain.</p>
+      <div class="center container">
+        <div class="center">
+            <h3 class="section-title">Startup ospitate in BLOCKCHAINLAB  
+            <span class="rotate-text" 
+            data-plugin-options='{"speed": 5000}'>
+            {% for startup in site.data.startup %}
+                   {{ startup.name }}, 
+            {% endfor %}
+            </span> 
+            
+            </h3>
+            <p class="f-16">Team di ricerca tecnologie blockchain.</p>
           </div>
       </div>
     </div>
       <div class="">
         <div class="portfolioFilter">
           <div><a href="#" data-filter="*" class="current">Tutto lo staff</a></div>   
-          <div><a href="#" data-filter=".ricerca"><img src='images/blockchainlab-logo-dark.png' class="img_team"> Ricerca</a></div>   
+          <div><a href="#" data-filter=".ricerca" class="green_link"><img src='images/blockchainlab-logo-dark.png' class="img_team"> Ricerca</a></div>   
           <div><a href="#" data-filter=".multidisciplinare"><img src='images/blockchainlab-logo-grey.png' class="img_team"> Multidisciplinare</a></div>   
-          <div><a href="#" data-filter=".comitato"><img src='images/blockchainlab-logo-blue.png' class="img_team"> Comitato scientifico</a></div>   
+          <div><a href="#" data-filter=".comitato" class="red_link"><img src='images/blockchainlab-logo-blue.png' class="img_team"> Comitato scientifico</a></div>   
         </div>
         <div class="portfolioContainer wide grid-4">
           
@@ -530,7 +537,7 @@
     <section class="section-content clearfix p-t-30 cont_loghi">
       <div class="container">
         <div class="row">
-          
+          <h3 class="text-center">Startup attualmente presenti: </h3>
           <figure>
             <div class="owl-carousel icon-carousel" data-plugin-options='{"items": 3, "singleItem": false}'>
             
@@ -573,9 +580,7 @@
               <!-- Single Testimonial Starts -->
               <div class="testimonial">
                 <p class="comment">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu sem ante. Nullam quis risus eu 
-                  purus commodo dignissim. Donec iaculis ac ex vel posuere. Sed posuere, elit vitae mattis condimentum, 
-                  quam urna fringilla magna
+                  Siamo la più grande realtà finanziaria indipendente nel mercato italiano, quotata alla Borsa di Milano. Fin dalla nascita, ci occupiamo solo di ciò che sappiamo fare bene. Noi di Azimut lavoriamo da sempre per costruire valore e fornire soddisfazione a voi clienti, offrendovi soluzioni di investimento focalizzate esclusivamente sui settori in cui abbiamo saputo sviluppare e raggiungere eccellenti livelli di know-how ed esperienza.
                 </p>
                 <h5 class="happy-client">Gruppo Azimut</h5>
                 <span class="client-info">Milano</span>
@@ -584,9 +589,7 @@
               <!-- Single Testimonial Starts -->
               <div class="testimonial">
                 <p class="comment">
-                  Dolor sit amet, consectetur adipiscing elit. Nullam eu sem ante. Nullam quis risus eu 
-                  purus commodo dignissim. Donec iaculis ac ex vel posuere. Sed posuere, elit vitae mattis condimentum, 
-                  quam urna fringilla magna
+                    Intesa Sanpaolo è il gruppo bancario nato dalla fusione di Banca Intesa e Sanpaolo IMI, due grandi realtà bancarie italiane caratterizzate da valori comuni che si sono aggregate per crescere, per servire meglio le famiglie e per contribuire ulteriormente allo sviluppo delle imprese e alla crescita del paese.
                 </p>
                 <h5 class="happy-client">Gruppo Intesa San Paolo</h5>
                 <span class="client-info">Milano</span>

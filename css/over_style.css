@@ -147,14 +147,24 @@ figure.effect-jazz:hover .block_logo {
 figure.effect-jazz .see-more p {
     padding: 0px 15px;
 }
-
+.start_up_img{
+    opacity:1!important;
+}
 .cont_logo_home{
     display:none;
 }
 .cont_iframe{
     display:block;
 }
-
+.portfolioFilter div{
+    display:inline-block;
+}
+.green_link:hover{
+    color:#87B05C!important;
+}
+.red_link:hover{
+    color:#C92C55!important;
+}
 
 @media only screen and (min-device-width : 300px) and (max-device-width : 568px) { 
     .cont_iframe{

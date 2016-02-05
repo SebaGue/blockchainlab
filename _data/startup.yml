@@ -1,7 +1,7 @@
 # name: Nome startup
 # link: Link startup
 # extension : Estensione file
-# logo --> images/logo/logo_{name | replace: ' ','' | downcase }.{ extension}
+# logo --> images/logo/logo_{name | replace: ' ','' | downcase }.{extension}
 
 - name: Wolf of Trading
   link: http://wolfoftrading.com/

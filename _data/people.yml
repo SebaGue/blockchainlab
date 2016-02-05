@@ -7,63 +7,63 @@
 
 # RICERCA
 - name: Giacomo Zucco
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/giacomozucco
   team: ricerca
   ruolo: coordinatore BLOCKCHAINLAB
   posizione: ex Accenture
 
 - name: Riccardo Casatta
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup: Eternity Wall
   link: https://it.linkedin.com/in/riccardocasatta
   team: ricerca
   ruolo: ricercatore BLOCKCHAINLAB
-  posizione: CEO GeoBit ex Zurich
+  posizione: CEO GeoBit ex Zurich CEO
 
 - name: Lawrence Nahum
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup: GreenAddress
   link: https://uk.linkedin.com/in/lawrencenahum
   team: ricerca
   ruolo: ricercatore BLOCKCHAINLAB
   posizione: CEO GreenAddress ex Markit
 
 - name: Sebastiano Scrofina
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/riggasconi
   team: ricerca
   ruolo: ricercatore BLOCKCHAINLAB
   posizione: CEO CoinCapital ex Dropis
   
 - name: Luciano Tess
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/ltess
   team: ricerca
   ruolo: ricercatore BLOCKCHAINLAB
   posizione: Founder BIS CEO Trade_IT
   
 - name: Davide Laspina
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup: Wolf of Trading
   link: https://it.linkedin.com/in/davidelaspina
   team: ricerca
   ruolo: ricercatore BLOCKCHAINLAB
   posizione: CEO Wolf of Trading
   
 - name: Franco Cimatti
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/hostfat
   team: ricerca
   ruolo: ricercatore BLOCKCHAINLAB
   posizione: Pres. Bitcoin Foundation Italia consulente CryptoClub
   
 - name: Tobia de Angelis
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/tobiadeangelis
   team: ricerca
   ruolo: ricercatore BLOCKCHAINLAB
   posizione: in VC nel gruppo LVenture Group
   
 - name: Gabriele Domenichini
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup: AssoB.IT
   link: https://it.linkedin.com/pub/gabriele-domenichini/1/451/49
   team: ricerca
   ruolo: ricercatore BLOCKCHAINLAB
@@ -72,77 +72,77 @@
 #MULTIDISCIPLIANRE  
   
 - name: Marco Corradino
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/corradino
   team: multidisciplinare
   ruolo: 
   posizione: Presidente Red Pill
 
 - name: Cristiano Esclapon
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/pub/cristiano-esclapon/0/99/a94
   team: multidisciplinare
   ruolo: 
   posizione: Imprenditore e Angel Investor
     
 - name: Roberto Condulmari
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/pub/roberto-condulmari/23/144/b2b
   team: multidisciplinare
   ruolo: 
   posizione: Cofondatore Kairos
     
 - name: Edilio Rusconi
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: 
   team: multidisciplinare
   ruolo: 
   posizione: Marketing editoriale Comunicazione Editing
     
 - name: Vito Lomele
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/vitolomele
   team: multidisciplinare
   ruolo: 
   posizione: CEO jobrapido
     
 - name: Dario Giudici
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup: SiamoSoci
   link: https://it.linkedin.com/pub/dario-giudici/0/97/258
   team: multidisciplinare
   ruolo: 
   posizione: Presidente SiamoSoci
 
 - name: Pietro Martani
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/pietromartani
   team: multidisciplinare
   ruolo: 
   posizione: CEO Windows On Europe
   
 - name: Giovanni Damiani
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: 
   team: multidisciplinare
   ruolo: 
   posizione: Direttore Generale Consorzio Operativo MPS
   
 - name: Francesco Inguscio
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/francescoinguscio
   team: multidisciplinare
   ruolo: 
   posizione: CEO Nuovolab
   
 - name: Emil Abirascid
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/emilabirascid
   team: multidisciplinare
   ruolo: 
   posizione: Giornalista esperto d’innovazione Fondatore di Startup Business
   
 - name: Marina Calcagno
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/marinacalcagnob
   team: multidisciplinare
   ruolo: 
@@ -151,63 +151,63 @@
 # COMITATO  
   
 - name: Luciano Pietronero
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/corradino
   team: comitato
   ruolo: 
   posizione: Fondatore Ist. Sistemi Complessi CNR Professore La Sapienza
   
 - name: Davide Contini
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: http://www.grimaldilex.com/gli-avvocati/davide-contini-partner
   team: comitato
   ruolo: 
   posizione: Partner Studio Legale Grimaldi
   
 - name: Ferdinando Ametrano
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/ferdinandoametrano
   team: comitato
   ruolo: 
   posizione: Intesa San Paolo Docente Milano Bicocca Cofondatore AssoB.it
   
 - name: Raffaele Mauro
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/raffaelemauro
   team: comitato
   ruolo: 
   posizione: Advisor Harvard Innovation Lab Manager Intesa San Paolo
 
 - name: Stefano Capaccioli
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/capaccioli
   team: comitato
   ruolo: 
   posizione: Commercialista e Revisore Fondatore Coinlex Cofondatore AssoB.it
 
 - name: Ivan Vaghi
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/ivanvaghi
   team: comitato
   ruolo: 
   posizione: Imprenditore seriale Cofondatore AssoB.it
 
 - name: Emanuele Carluccio
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/pub/emanuele-maria-carluccio/9/7a4/176/it
   team: comitato
   ruolo: 
   posizione: Consigliere Eurizon Capital Professore Università di Verona Docente Senior SDA Bocconi
 
 - name: Mariano Carozzi
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://it.linkedin.com/in/marianocarozzi
   team: comitato
   ruolo: 
   posizione: Responsabile innovazione Extra Banca Direttore Symbid Italia. Cofondatore AssoB.it
 
 - name: Massimo Chiriatti
-  bio: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+  startup:
   link: https://www.linkedin.com/pub/massimo-chiriatti/0/b31/88/it
   team: comitato
   ruolo: 
