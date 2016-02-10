@@ -165,7 +165,26 @@ figure.effect-jazz .see-more p {
 .red_link:hover{
     color:#C92C55!important;
 }
+.portfolioContainer.wide.grid-4 figure {
+    width: 18.5%;
+    margin: .5%;
+}
+.portfolioContainer.grid-4 {
+    margin-left: .9%;
+}
+@media only screen and (max-width: 992px) {
 
+.portfolioContainer.wide figure, .portfolioContainer.grid-4 figure, .portfolioContainer.grid-5 figure, .portfolioContainer.wide.grid-4 figure, .portfolioContainer.wide.grid-3 figure {
+    width: 47.3%;
+    margin: 1% 1.2%;
+}
+}
+@media only screen and (max-width: 1400px) {
+.portfolioContainer.grid-4 figure, .portfolioContainer.grid-5 figure, .portfolioContainer.wide.grid-4 figure {
+    margin: .6%;
+    width: 22.9%;
+}
+}
 @media only screen and (min-device-width : 300px) and (max-device-width : 568px) { 
     .cont_iframe{
         display:none;

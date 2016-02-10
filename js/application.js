@@ -168,7 +168,7 @@ $(window).ready(function() {
     
     /* Video Background */
     
-    //$(".video-player").mb_YTPlayer();
+    $(".video-player").mb_YTPlayer();
     
     /*
     if($(".video-player").length){
