@@ -172,6 +172,13 @@ figure.effect-jazz .see-more p {
 .portfolioContainer.grid-4 {
     margin-left: .9%;
 }
+@media only screen and (max-width: 680px){
+.portfolioContainer figure, .portfolioContainer.grid-2 figure, .portfolioContainer.grid-3 figure, .portfolioContainer.grid-4 figure, .portfolioContainer.grid-5 figure, .portfolioContainer.wide figure, .portfolioContainer.wide.grid-2 figure, .portfolioContainer.wide.grid-3 figure, .portfolioContainer.wide.grid-4 figure {
+    width: 95%!important;
+    margin: 1.2% 2%;
+}
+    
+}
 @media only screen and (max-width: 992px) {
 
 .portfolioContainer.wide figure, .portfolioContainer.grid-4 figure, .portfolioContainer.grid-5 figure, .portfolioContainer.wide.grid-4 figure, .portfolioContainer.wide.grid-3 figure {
@@ -186,6 +193,13 @@ figure.effect-jazz .see-more p {
 }
 }
 @media only screen and (min-device-width : 300px) and (max-device-width : 568px) { 
+    .cont_loghi h3{
+        font-size:18px;
+    }
+    .bg_transparent p {
+        text-align: justify;
+    }
+    
     .cont_iframe{
         display:none;
     }
@@ -235,7 +249,7 @@ figure.effect-jazz .see-more p {
     }
     
     .section-testimonials {
-        height: 550px;
+        height: 670px;
     }
     .copyright-simple-menu{
         display:none;
